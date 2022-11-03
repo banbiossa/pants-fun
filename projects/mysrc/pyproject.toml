@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "autobahn"
+name = "mysrc"
 version = "0.1.0"
 description = ""
 authors = ["Shota Shimizu <shota_shimizu@caddi.jp>"]
 readme = "README.md"
+packages = [{include = "mysrc", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.63.0"
 
 
 [build-system]
