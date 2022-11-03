@@ -6,3 +6,9 @@ backend_packages = [
     "pants.backend.python.lint.black",
     "pants.backend.python.lint.isort",
 ]
+
+[source]
+marker_filenames = ["pyproject.toml"]
+
+[anonymous-telemetry]
+enabled = false
