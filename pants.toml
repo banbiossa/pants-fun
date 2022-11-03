@@ -3,6 +3,7 @@ pants_version = "2.14.0"
 
 backend_packages = [
     "pants.backend.python",
+    "pants.backend.experimental.python",
     "pants.backend.python.lint.black",
     "pants.backend.python.lint.isort",
 ]
