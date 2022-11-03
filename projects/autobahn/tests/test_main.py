@@ -1,5 +1,8 @@
-import pandas as pd
-from autobahn.main import main, return_df
+from autobahn.main import main
+from autobahn.main import pandas as pd
+from autobahn.main import return_df
+
+# import pandas as pd
 
 
 def test_main():
